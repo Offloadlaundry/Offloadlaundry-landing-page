@@ -1,3 +1,5 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,18 +9,21 @@
   --background: #fafafa;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Inter, DM Sans, system-ui, sans-serif;
-}
-
-/* Smooth scroll for in-page navigation (Req 4.1) */
 html {
   scroll-behavior: smooth;
 }
 
-/* Offset anchored sections so the header doesn't overlap content */
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'Inter', 'DM Sans', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
 section[id] {
   scroll-margin-top: 5rem;
+}
+
+* {
+  box-sizing: border-box;
 }
