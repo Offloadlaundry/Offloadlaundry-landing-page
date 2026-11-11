@@ -1,4 +1,4 @@
-# Implementation Plan: OffLoad Laundry Landing Page
+﻿# Implementation Plan: OffLoad Laundry Landing Page
 
 ## Overview
 
@@ -39,7 +39,7 @@ The plan follows the design's folder structure (app/, components/, lib/, content
     - **Property 5: WCAG AA Contrast Compliance**
     - Write a pure function that calculates WCAG contrast ratio between two hex colors
     - Write a fast-check property test verifying all design system color pairs meet AA standards (at least 4.5:1 for normal text, at least 3:1 for large text and UI component boundaries)
-    - Tag test: `// Feature: simsalaclean-landing-page, Property 5: WCAG AA Contrast Compliance`
+    - Tag test: `// Feature: offload-laundry, Property 5: WCAG AA Contrast Compliance`
     - **Validates: Requirements 6.4**
 
 - [ ] 2. Define TypeScript types and content data
@@ -65,11 +65,11 @@ The plan follows the design's folder structure (app/, components/, lib/, content
   - [ ] 3.2* Write property tests for Instagram normalizer idempotence and confluence
     - **Property 1: Instagram Normalizer Idempotence**
     - Write fast-check test: for any string input, normalize(normalize(x)) === normalize(x)
-    - Tag: `// Feature: simsalaclean-landing-page, Property 1: Instagram Normalizer Idempotence`
+    - Tag: `// Feature: offload-laundry, Property 1: Instagram Normalizer Idempotence`
     - **Validates: Requirements 9.4**
     - **Property 2: Instagram Normalizer Confluence**
     - Write fast-check test: for any two inputs differing only by leading @ or surrounding whitespace, normalize produces identical output; output always has no leading @ and no leading/trailing whitespace
-    - Tag: `// Feature: simsalaclean-landing-page, Property 2: Instagram Normalizer Confluence`
+    - Tag: `// Feature: offload-laundry, Property 2: Instagram Normalizer Confluence`
     - **Validates: Requirements 9.1, 9.2, 9.3, 9.5**
 
   - [ ] 3.3 Implement validateLeadForm pure function
@@ -81,7 +81,7 @@ The plan follows the design's folder structure (app/, components/, lib/, content
   - [ ] 3.4* Write property test for whitespace-only input rejection
     - **Property 3: Whitespace-Only Input Rejection**
     - Write fast-check test: for any string composed entirely of whitespace, submitting it as either field value is rejected by validation, form prevents submission and displays error
-    - Tag: `// Feature: simsalaclean-landing-page, Property 3: Whitespace-Only Input Rejection`
+    - Tag: `// Feature: offload-laundry, Property 3: Whitespace-Only Input Rejection`
     - **Validates: Requirements 8.1, 8.2**
 
 - [ ] 4. Implement utility and navigation components
@@ -295,7 +295,7 @@ The plan follows the design's folder structure (app/, components/, lib/, content
     - **Property 4: No Horizontal Scroll at Any Viewport Width**
     - Write fast-check test verifying document scroll width does not exceed viewport width for any viewport width of at least 320px
     - Use mock rendering at various viewport widths
-    - Tag: `// Feature: simsalaclean-landing-page, Property 4: No Horizontal Scroll`
+    - Tag: `// Feature: offload-laundry, Property 4: No Horizontal Scroll`
     - **Validates: Requirements 5.4**
 
   - [ ] 11.2* Write smoke tests

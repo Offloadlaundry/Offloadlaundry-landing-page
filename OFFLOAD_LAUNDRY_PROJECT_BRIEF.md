@@ -1,7 +1,7 @@
-# Kiro Build Brief --- Landing Page Simsalaclean
+﻿# Kiro Build Brief --- Landing Page OffLoad Laundry
 
 > **Tujuan dokumen:** Menjadi master brief dan panduan prompt bertahap
-> untuk membangun landing page pre-launch Simsalaclean menggunakan Kiro
+> untuk membangun landing page pre-launch OffLoad Laundry menggunakan Kiro
 > AI.\
 > **Bahasa website:** Bahasa Indonesia, dengan istilah bahasa Inggris
 > hanya jika terasa lebih natural dan relevan.\
@@ -14,9 +14,9 @@
 
 ## 1. Project Overview
 
-### Tentang Simsalaclean
+### Tentang OffLoad Laundry
 
-Simsalaclean adalah layanan laundry online yang berbasis di Jakarta
+OffLoad Laundry adalah layanan laundry online yang berbasis di Jakarta
 Selatan dan sedang berada dalam tahap **pre-launch**. Landing page ini
 dibuat untuk memperkenalkan konsep layanan, membangun awareness, dan
 mengumpulkan calon pelanggan yang tertarik sebelum layanan resmi
@@ -29,7 +29,7 @@ website yang seolah-olah layanannya sudah bisa dipesan.
 ### Primary objective
 
 Mengumpulkan leads dari orang-orang yang tertarik untuk menjadi bagian
-dari early community Simsalaclean.
+dari early community OffLoad Laundry.
 
 ### Primary conversion
 
@@ -49,7 +49,7 @@ konfirmasi bahwa data telah diterima.
 
 ### Brand positioning
 
-Simsalaclean ingin hadir sebagai solusi laundry online yang praktis dan
+OffLoad Laundry ingin hadir sebagai solusi laundry online yang praktis dan
 mudah diakses untuk membantu orang punya lebih banyak waktu untuk
 hal-hal yang lebih penting.
 
@@ -125,10 +125,10 @@ berikut.
 
 ### A. Header / Navigation
 
-**Logo:** Simsalaclean (gunakan wordmark berbasis teks sementara jika
+**Logo:** OffLoad Laundry (gunakan wordmark berbasis teks sementara jika
 logo final belum tersedia).
 
-Navigation: - Beranda - Kenapa Simsalaclean - Cara Kerja - FAQ
+Navigation: - Beranda - Kenapa OffLoad Laundry - Cara Kerja - FAQ
 
 CTA button: **Gabung Early Access**
 
@@ -154,7 +154,7 @@ Laundry Beres, Waktu Lebih Bebas.
 
 **Supporting copy:**\
 Rutinitas sudah cukup padat. Urusan laundry seharusnya nggak ikut bikin
-repot. Simsalaclean sedang menyiapkan layanan laundry online yang
+repot. OffLoad Laundry sedang menyiapkan layanan laundry online yang
 praktis untuk membantu kamu punya lebih banyak waktu untuk hal yang
 penting.
 
@@ -163,7 +163,7 @@ Jadi yang Pertama Tahu!
 
 **Form supporting text:**\
 Tinggalkan nama dan Instagram kamu. Kami akan mengabari saat
-Simsalaclean semakin dekat dengan hari peluncuran.
+OffLoad Laundry semakin dekat dengan hari peluncuran.
 
 **Form fields --- hanya dua:**
 
@@ -175,7 +175,7 @@ Simsalaclean semakin dekat dengan hari peluncuran.
 Button: **Daftar Early Access**
 
 Microcopy di bawah button:\
-*Gratis untuk bergabung. Kami akan menghubungi kamu saat Simsalaclean
+*Gratis untuk bergabung. Kami akan menghubungi kamu saat OffLoad Laundry
 siap hadir.*
 
 Tambahkan Privacy Policy link tepat di bawah lead form. Link harus
@@ -196,7 +196,7 @@ Mulai dari memilah pakaian, mencuci, sampai memastikan semuanya siap
 dipakai lagi---urusan laundry bisa menyita waktu di tengah jadwal yang
 padat.
 
-Simsalaclean hadir dengan ide sederhana: membuat pengalaman laundry
+OffLoad Laundry hadir dengan ide sederhana: membuat pengalaman laundry
 terasa lebih praktis, supaya kamu bisa fokus pada aktivitas yang lebih
 penting.
 
@@ -211,7 +211,7 @@ Kurangi waktu yang biasanya tersita untuk mengurus pakaian dan gunakan
 untuk hal yang lebih berarti.
 
 **3. Lebih Mudah Diakses**\
-Simsalaclean sedang dipersiapkan untuk menemani kebutuhan laundry
+OffLoad Laundry sedang dipersiapkan untuk menemani kebutuhan laundry
 masyarakat Jakarta Selatan.
 
 Catatan: Jangan menulis klaim operasional yang belum dikonfirmasi,
@@ -253,7 +253,7 @@ Bukan Cuma Soal Pakaian Bersih. Ini Soal Waktu Kamu.
 
 **Body copy:**\
 Kami percaya hal sederhana seperti mengurus laundry seharusnya tidak
-mengambil terlalu banyak ruang dalam keseharian. Simsalaclean ingin
+mengambil terlalu banyak ruang dalam keseharian. OffLoad Laundry ingin
 membantu menciptakan pengalaman yang lebih praktis, agar kamu punya
 lebih banyak ruang untuk menjalani hidup.
 
@@ -269,7 +269,7 @@ sebelumnya.
 Be Among the First to Know.
 
 **Supporting copy:**\
-Simsalaclean sedang dalam perjalanan menuju Jakarta Selatan.
+OffLoad Laundry sedang dalam perjalanan menuju Jakarta Selatan.
 Bergabunglah dalam daftar early access dan jadi salah satu orang pertama
 yang mendapatkan kabar saat kami siap meluncur.
 
@@ -282,16 +282,16 @@ Button mengarahkan pengunjung kembali ke lead form di hero section
 
 Buat FAQ menggunakan accordion agar halaman tetap ringkas.
 
-**1. Apa itu Simsalaclean?**\
-Simsalaclean adalah layanan laundry online yang sedang dipersiapkan
+**1. Apa itu OffLoad Laundry?**\
+OffLoad Laundry adalah layanan laundry online yang sedang dipersiapkan
 untuk membantu urusan laundry terasa lebih praktis.
 
-**2. Apakah Simsalaclean sudah bisa digunakan?**\
-Belum. Saat ini Simsalaclean masih dalam tahap pre-launch dan belum
+**2. Apakah OffLoad Laundry sudah bisa digunakan?**\
+Belum. Saat ini OffLoad Laundry masih dalam tahap pre-launch dan belum
 menerima pesanan. Kami sedang mempersiapkan layanan sebelum resmi hadir.
 
-**3. Di mana Simsalaclean akan tersedia?**\
-Simsalaclean sedang dipersiapkan untuk area Jakarta Selatan. Informasi
+**3. Di mana OffLoad Laundry akan tersedia?**\
+OffLoad Laundry sedang dipersiapkan untuk area Jakarta Selatan. Informasi
 cakupan layanan lebih detail akan diumumkan menjelang peluncuran.
 
 **4. Bagaimana cara mendapatkan informasi peluncurannya?**\
@@ -304,10 +304,10 @@ mendapatkan informasi peluncuran.
 
 ### H. Footer
 
-Tampilkan: - Logo/wordmark Simsalaclean. - Short description:\
+Tampilkan: - Logo/wordmark OffLoad Laundry. - Short description:\
 *A simpler laundry experience is coming to South Jakarta.* - Navigation
-links: Beranda, Kenapa Simsalaclean, Cara Kerja, FAQ. - Privacy Policy
-link. - Copyright: `© 2026 Simsalaclean. All rights reserved.`
+links: Beranda, Kenapa OffLoad Laundry, Cara Kerja, FAQ. - Privacy Policy
+link. - Copyright: `© 2026 OffLoad Laundry. All rights reserved.`
 
 Jangan menampilkan alamat kantor, nomor telepon, email, akun social
 media, atau informasi legal yang belum diberikan. Jika dibutuhkan,
@@ -332,7 +332,7 @@ hanya setelah data berhasil dikirim dan dikonfirmasi oleh integrasi.
 
 **You're on the list!**
 
-Terima kasih sudah tertarik dengan Simsalaclean. Kami akan mengabari
+Terima kasih sudah tertarik dengan OffLoad Laundry. Kami akan mengabari
 kamu saat ada update terbaru menjelang peluncuran.
 
 Button: **Oke, Got It**
@@ -374,23 +374,23 @@ modal harus tetap nyaman dibaca dan dapat di-scroll.
 
 Suggested Privacy Policy copy:
 
-**Privacy Policy --- Simsalaclean**
+**Privacy Policy --- OffLoad Laundry**
 
 Kami menghargai privasi kamu. Informasi yang kamu kirimkan melalui form
 early access, yaitu nama lengkap dan Instagram username, digunakan untuk
-mencatat ketertarikan kamu terhadap Simsalaclean dan memberikan
+mencatat ketertarikan kamu terhadap OffLoad Laundry dan memberikan
 informasi terkait perkembangan serta peluncuran layanan.
 
 Kami tidak meminta informasi lain melalui form ini. Data yang
 dikumpulkan hanya boleh digunakan untuk tujuan komunikasi terkait
-Simsalaclean dan ditangani secara wajar dengan memperhatikan keamanan
+OffLoad Laundry dan ditangani secara wajar dengan memperhatikan keamanan
 serta kerahasiaannya.
 
 Dengan mengirimkan form, kamu memahami bahwa informasi tersebut akan
-disimpan untuk keperluan early access Simsalaclean.
+disimpan untuk keperluan early access OffLoad Laundry.
 
 Untuk pertanyaan atau permintaan terkait data kamu, silakan hubungi tim
-Simsalaclean melalui kanal kontak resmi yang akan diumumkan.
+OffLoad Laundry melalui kanal kontak resmi yang akan diumumkan.
 
 Catatan: Copy ini merupakan draft awal, bukan pengganti review legal.
 Jangan menambahkan alamat email kontak fiktif.
@@ -398,7 +398,7 @@ Jangan menambahkan alamat email kontak fiktif.
 ### D. Favicon
 
 -   Tambahkan favicon agar browser tab menampilkan identitas
-    Simsalaclean.
+    OffLoad Laundry.
 -   Jika logo final belum tersedia, buat favicon sementara berupa
     monogram atau simbol sederhana yang konsisten dengan visual brand.
 -   Pastikan favicon bekerja pada deployment production.
@@ -455,7 +455,7 @@ Gunakan stack yang sederhana, stabil, dan mudah di-maintain.
 7.  Jangan menggunakan placeholder lorem ipsum.
 8.  Jangan membuat data, testimonial, rating, jumlah pelanggan, atau
     klaim layanan yang tidak diberikan.
-9.  Jangan mengubah positioning bahwa Simsalaclean masih pre-launch.
+9.  Jangan mengubah positioning bahwa OffLoad Laundry masih pre-launch.
 10. Pastikan seluruh CTA mengarah ke tindakan yang benar.
 
 ------------------------------------------------------------------------
@@ -471,7 +471,7 @@ melanjutkan ke tahap berikutnya.
 Copy prompt berikut ke Kiro:
 
 ``` text
-Saya ingin membangun landing page untuk Simsalaclean, sebuah online laundry service yang berbasis di Jakarta Selatan dan saat ini masih dalam tahap pre-launch.
+Saya ingin membangun landing page untuk OffLoad Laundry, sebuah online laundry service yang berbasis di Jakarta Selatan dan saat ini masih dalam tahap pre-launch.
 
 Tujuan website adalah memperkenalkan brand, membangun ketertarikan, dan mengumpulkan early access leads sebelum layanan resmi diluncurkan.
 
@@ -495,7 +495,7 @@ Visual direction:
 - Layout lega, typography hierarchy jelas, dan section tersusun rapi.
 
 PENTING:
-- Simsalaclean belum resmi beroperasi. Jangan membuat copy yang menyiratkan bahwa layanan sudah bisa dipesan.
+- OffLoad Laundry belum resmi beroperasi. Jangan membuat copy yang menyiratkan bahwa layanan sudah bisa dipesan.
 - Hero section harus memiliki headline, supporting copy, dan area lead form.
 - Lead form harus terlihat above the fold tanpa perlu scroll.
 - Form hanya akan memiliki Full Name dan Instagram Username.
@@ -511,17 +511,17 @@ Setelah selesai, jelaskan file yang dibuat dan bagian mana yang perlu saya revie
 Setelah skeleton disetujui, gunakan prompt:
 
 ``` text
-Sekarang lengkapi seluruh section landing page Simsalaclean dengan copywriting final berdasarkan brief berikut.
+Sekarang lengkapi seluruh section landing page OffLoad Laundry dengan copywriting final berdasarkan brief berikut.
 
 HERO:
 Eyebrow: SEGERA HADIR DI JAKARTA SELATAN
 Headline: Laundry Beres, Waktu Lebih Bebas.
 Supporting copy:
-"Rutinitas sudah cukup padat. Urusan laundry seharusnya nggak ikut bikin repot. Simsalaclean sedang menyiapkan layanan laundry online yang praktis untuk membantu kamu punya lebih banyak waktu untuk hal yang penting."
+"Rutinitas sudah cukup padat. Urusan laundry seharusnya nggak ikut bikin repot. OffLoad Laundry sedang menyiapkan layanan laundry online yang praktis untuk membantu kamu punya lebih banyak waktu untuk hal yang penting."
 
 Form heading: Jadi yang Pertama Tahu!
 Form supporting text:
-"Tinggalkan nama dan Instagram kamu. Kami akan mengabari saat Simsalaclean semakin dekat dengan hari peluncuran."
+"Tinggalkan nama dan Instagram kamu. Kami akan mengabari saat OffLoad Laundry semakin dekat dengan hari peluncuran."
 Fields:
 - Nama Lengkap — placeholder: Masukkan nama lengkap kamu
 - Instagram Username — placeholder: @username
@@ -529,7 +529,7 @@ Button: Daftar Early Access
 
 PROBLEM & SOLUTION:
 Headline: Waktu Kamu Terlalu Berharga untuk Habis Mengurus Laundry.
-Jelaskan bahwa rutinitas laundry dapat menyita waktu dan Simsalaclean ingin membuat pengalaman tersebut lebih praktis.
+Jelaskan bahwa rutinitas laundry dapat menyita waktu dan OffLoad Laundry ingin membuat pengalaman tersebut lebih praktis.
 
 Buat tiga benefit cards:
 1. Lebih Praktis
@@ -545,23 +545,23 @@ Buat tiga langkah konseptual:
 
 BRAND VALUE:
 Headline: Bukan Cuma Soal Pakaian Bersih. Ini Soal Waktu Kamu.
-Jelaskan brand belief Simsalaclean secara singkat dan emosional.
+Jelaskan brand belief OffLoad Laundry secara singkat dan emosional.
 
 EARLY ACCESS CTA:
 Headline: Be Among the First to Know.
 Supporting copy:
-"Simsalaclean sedang dalam perjalanan menuju Jakarta Selatan. Bergabunglah dalam daftar early access dan jadi salah satu orang pertama yang mendapatkan kabar saat kami siap meluncur."
+"OffLoad Laundry sedang dalam perjalanan menuju Jakarta Selatan. Bergabunglah dalam daftar early access dan jadi salah satu orang pertama yang mendapatkan kabar saat kami siap meluncur."
 Button: Gabung Early Access
 
 FAQ:
-1. Apa itu Simsalaclean?
-2. Apakah Simsalaclean sudah bisa digunakan?
-3. Di mana Simsalaclean akan tersedia?
+1. Apa itu OffLoad Laundry?
+2. Apakah OffLoad Laundry sudah bisa digunakan?
+3. Di mana OffLoad Laundry akan tersedia?
 4. Bagaimana cara mendapatkan informasi peluncurannya?
 5. Apakah ada biaya untuk bergabung dalam early access?
 
 FOOTER:
-Tampilkan wordmark Simsalaclean, short description, navigation, Privacy Policy, dan copyright.
+Tampilkan wordmark OffLoad Laundry, short description, navigation, Privacy Policy, dan copyright.
 
 Pastikan copy terdengar natural, persuasive, dan tidak terlalu formal. Hindari copy generik yang terasa seperti template. Jangan membuat klaim yang belum dikonfirmasi. Pertahankan konteks pre-launch di seluruh halaman.
 ```
@@ -569,7 +569,7 @@ Pastikan copy terdengar natural, persuasive, dan tidak terlalu formal. Hindari c
 ### Step 3 --- Polish UI & Responsive Design
 
 ``` text
-Sekarang lakukan visual refinement pada landing page Simsalaclean.
+Sekarang lakukan visual refinement pada landing page OffLoad Laundry.
 
 Prioritas:
 1. Pastikan hero section menjadi focal point.
@@ -617,7 +617,7 @@ Requirements:
 Thank You pop-up:
 Title: You're on the list!
 Message:
-"Terima kasih sudah tertarik dengan Simsalaclean. Kami akan mengabari kamu saat ada update terbaru menjelang peluncuran."
+"Terima kasih sudah tertarik dengan OffLoad Laundry. Kami akan mengabari kamu saat ada update terbaru menjelang peluncuran."
 Button: Oke, Got It
 
 Untuk sementara, pisahkan proses submit dari UI agar integrasi Google Sheets dapat ditambahkan pada tahap berikutnya. Jangan menampilkan status sukses palsu jika data belum benar-benar tersimpan.
@@ -637,25 +637,25 @@ PRIVACY POLICY:
 
 Gunakan draft Privacy Policy berikut:
 
-"Privacy Policy — Simsalaclean
+"Privacy Policy — OffLoad Laundry
 
-Kami menghargai privasi kamu. Informasi yang kamu kirimkan melalui form early access, yaitu nama lengkap dan Instagram username, digunakan untuk mencatat ketertarikan kamu terhadap Simsalaclean dan memberikan informasi terkait perkembangan serta peluncuran layanan.
+Kami menghargai privasi kamu. Informasi yang kamu kirimkan melalui form early access, yaitu nama lengkap dan Instagram username, digunakan untuk mencatat ketertarikan kamu terhadap OffLoad Laundry dan memberikan informasi terkait perkembangan serta peluncuran layanan.
 
-Kami tidak meminta informasi lain melalui form ini. Data yang dikumpulkan hanya boleh digunakan untuk tujuan komunikasi terkait Simsalaclean dan ditangani secara wajar dengan memperhatikan keamanan serta kerahasiaannya.
+Kami tidak meminta informasi lain melalui form ini. Data yang dikumpulkan hanya boleh digunakan untuk tujuan komunikasi terkait OffLoad Laundry dan ditangani secara wajar dengan memperhatikan keamanan serta kerahasiaannya.
 
-Dengan mengirimkan form, kamu memahami bahwa informasi tersebut akan disimpan untuk keperluan early access Simsalaclean.
+Dengan mengirimkan form, kamu memahami bahwa informasi tersebut akan disimpan untuk keperluan early access OffLoad Laundry.
 
-Untuk pertanyaan atau permintaan terkait data kamu, silakan hubungi tim Simsalaclean melalui kanal kontak resmi yang akan diumumkan."
+Untuk pertanyaan atau permintaan terkait data kamu, silakan hubungi tim OffLoad Laundry melalui kanal kontak resmi yang akan diumumkan."
 
 FAVICON:
-Buat favicon sementara berbasis monogram atau simbol sederhana yang sesuai dengan identitas Simsalaclean. Pastikan favicon muncul pada browser tab.
+Buat favicon sementara berbasis monogram atau simbol sederhana yang sesuai dengan identitas OffLoad Laundry. Pastikan favicon muncul pada browser tab.
 Jangan membuat alamat kontak fiktif.
 ```
 
 ### Step 6 --- Connect Google Sheets
 
 ``` text
-Sekarang siapkan integrasi lead form Simsalaclean dengan Google Sheets secara real-time.
+Sekarang siapkan integrasi lead form OffLoad Laundry dengan Google Sheets secara real-time.
 
 Gunakan Google Apps Script Web App sebagai endpoint, atau pendekatan lain yang aman dan sederhana.
 
@@ -682,12 +682,12 @@ Setelah endpoint tersedia, bantu saya melakukan test submission dan verifikasi b
 ### Step 7 --- Final QA
 
 ``` text
-Lakukan final quality assurance untuk landing page Simsalaclean.
+Lakukan final quality assurance untuk landing page OffLoad Laundry.
 
 Checklist:
 
 [ ] Landing page menggunakan bahasa Indonesia yang natural.
-[ ] Seluruh copy konsisten menyatakan bahwa Simsalaclean masih pre-launch.
+[ ] Seluruh copy konsisten menyatakan bahwa OffLoad Laundry masih pre-launch.
 [ ] Hero headline, supporting copy, dan lead form terlihat above the fold.
 [ ] Form hanya memiliki Full Name dan Instagram Username.
 [ ] Kedua field memiliki validasi.
@@ -770,7 +770,7 @@ manual.
 
 Hal-hal berikut masih perlu dikonfirmasi sebelum production launch:
 
--   Logo final Simsalaclean.
+-   Logo final OffLoad Laundry.
 -   Brand color final.
 -   Google Sheets file dan akses yang diperlukan.
 -   Google Apps Script Web App endpoint.
@@ -779,5 +779,5 @@ Hal-hal berikut masih perlu dikonfirmasi sebelum production launch:
     pickup/delivery, SLA, dan harga.
 
 Selama informasi tersebut belum tersedia, gunakan copy yang aman dan
-tidak membuat janji operasional. Pertahankan positioning Simsalaclean
+tidak membuat janji operasional. Pertahankan positioning OffLoad Laundry
 sebagai layanan laundry online yang **segera hadir di Jakarta Selatan**.

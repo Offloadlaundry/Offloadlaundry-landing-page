@@ -1,4 +1,4 @@
-# Design Document
+﻿# Design Document
 
 ## Overview
 
@@ -604,7 +604,7 @@ PBT digunakan untuk menguji sifat universal yang harus berlaku untuk semua input
 
 **Konfigurasi PBT:**
 - Minimum 100 iterasi per property test
-- Setiap test diberi tag: `Feature: simsalaclean-landing-page, Property {N}: {property_text}`
+- Setiap test diberi tag: `Feature: offload-laundry, Property {N}: {property_text}`
 - Property 1-3: pure function tests (cepat, in-memory)
 - Property 4: layout tests (memerlukan render di berbagai viewport width, gunakan mock rendering)
 - Property 5: design system tests (hitung contrast ratio dari pasangan warna, pure function)
@@ -612,7 +612,7 @@ PBT digunakan untuk menguji sifat universal yang harus berlaku untuk semua input
 **Library yang digunakan:**
 - `fast-check` untuk property-based testing
 - `vitest` sebagai test runner
-- Contoh tag pada test: `// Feature: simsalaclean-landing-page, Property 1: Instagram Normalizer Idempotence`
+- Contoh tag pada test: `// Feature: offload-laundry, Property 1: Instagram Normalizer Idempotence`
 
 ### 2. Unit Tests (Example-Based)
 
