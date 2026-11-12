@@ -21,29 +21,25 @@ export default function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100 shadow-sm">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
-          {/* Logo Section - Enhanced */}
+        <div className="flex items-center justify-between h-20"          {/* Logo Section - Refined with Shadow Effect */}
           <a
             href="#beranda"
             onClick={(e) => handleNav(e, "#beranda")}
-            className="flex items-center gap-2.5 group"
+            className="flex items-center gap-3 group"
           >
-            {/* Logo Container - Larger & More Prominent */}
-            <div className="flex items-center justify-center w-16 h-16 rounded-lg bg-primary/5 group-hover:bg-primary/10 transition-colors">
+            {/* Logo Container - Elegant Shadow Effect */}
+            <div className="flex items-center justify-center w-20 h-20 rounded-lg bg-white shadow-md group-hover:shadow-lg transition-shadow flex-shrink-0">
               <img
                 src="/offload-logo.png"
                 alt="OffLoad Laundry"
-                className="w-14 h-14 object-contain"
+                className="w-16 h-16 object-contain"
               />
             </div>
             
-            {/* Text - Clearer Typography */}
-            <div className="flex flex-col leading-tight hidden sm:flex">
-              <span className="font-black text-primary text-lg tracking-tight">
-                OffLoad
-              </span>
-              <span className="font-bold text-primary text-lg tracking-tight">
-                Laundry
+            {/* Brand Name - Single Line on Desktop */}
+            <div className="flex items-center leading-tight hidden sm:flex">
+              <span className="font-black text-primary text-lg tracking-tight whitespace-nowrap">
+                OffLoad Laundry
               </span>
             </div>
           </a>
@@ -62,11 +58,11 @@ export default function Header() {
             ))}
           </nav>
 
-          {/* CTA Button - Desktop */}
+          {/* CTA Button - Desktop - Elevated Design */}
           <a
             href="#lead-form"
             onClick={(e) => handleNav(e, "#lead-form")}
-            className="hidden lg:inline-flex items-center px-4 py-2 rounded-lg bg-primary text-white text-sm font-semibold hover:bg-primary/90 transition-colors"
+            className="hidden lg:inline-flex items-center px-6 py-3 rounded-lg bg-primary text-white text-sm font-semibold hover:bg-primary/90 active:bg-primary/80 transition-all shadow-md hover:shadow-lg hover:-translate-y-0.5"
           >
             Gabung Early Access
           </a>

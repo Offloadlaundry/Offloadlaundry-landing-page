@@ -54,7 +54,7 @@ export default function LeadForm() {
         </div>
         {submitError && <div className="p-3 bg-red-50 border border-red-200 rounded-lg text-sm text-red-600" role="alert">{submitError}</div>}
         <button type="submit" disabled={status === "submitting"}
-          className="w-full py-3.5 px-6 rounded-xl bg-accent text-gray-900 font-bold text-sm hover:bg-accent/90 disabled:opacity-60 disabled:cursor-not-allowed transition-all shadow-sm">
+          className="w-full py-3.5 px-6 rounded-xl bg-primary text-white font-bold text-sm hover:bg-primary/90 active:bg-primary/80 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:bg-primary transition-all shadow-sm hover:shadow-md">
           {status === "submitting" ? (
             <span className="flex items-center justify-center gap-2">
               <svg className="w-4 h-4 animate-spin" fill="none" viewBox="0 0 24 24">
