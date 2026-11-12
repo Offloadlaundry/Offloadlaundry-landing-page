@@ -21,14 +21,34 @@ export default function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100 shadow-sm">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
-          <a href="#beranda" onClick={(e) => handleNav(e, "#beranda")} className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-              <span className="text-white font-bold text-sm">OL</span>
+        <div className="flex items-center justify-between h-20">
+          {/* Logo Section - Enhanced */}
+          <a
+            href="#beranda"
+            onClick={(e) => handleNav(e, "#beranda")}
+            className="flex items-center gap-2.5 group"
+          >
+            {/* Logo Container - Larger & More Prominent */}
+            <div className="flex items-center justify-center w-16 h-16 rounded-lg bg-primary/5 group-hover:bg-primary/10 transition-colors">
+              <img
+                src="/offload-logo.png"
+                alt="OffLoad Laundry"
+                className="w-14 h-14 object-contain"
+              />
             </div>
-            <span className="font-bold text-primary text-lg tracking-tight">OffLoad Laundry</span>
+            
+            {/* Text - Clearer Typography */}
+            <div className="flex flex-col leading-tight hidden sm:flex">
+              <span className="font-black text-primary text-lg tracking-tight">
+                OffLoad
+              </span>
+              <span className="font-bold text-primary text-lg tracking-tight">
+                Laundry
+              </span>
+            </div>
           </a>
 
+          {/* Navigation - Desktop */}
           <nav className="hidden lg:flex items-center gap-6">
             {navLinks.map((link) => (
               <a
@@ -42,6 +62,7 @@ export default function Header() {
             ))}
           </nav>
 
+          {/* CTA Button - Desktop */}
           <a
             href="#lead-form"
             onClick={(e) => handleNav(e, "#lead-form")}
@@ -50,6 +71,7 @@ export default function Header() {
             Gabung Early Access
           </a>
 
+          {/* Mobile Menu Button */}
           <button
             className="lg:hidden p-2 rounded-md text-gray-600 hover:text-primary transition-colors"
             onClick={() => setMenuOpen(!menuOpen)}
@@ -67,6 +89,7 @@ export default function Header() {
           </button>
         </div>
 
+        {/* Mobile Menu */}
         {menuOpen && (
           <div className="lg:hidden border-t border-gray-100 py-4 space-y-1">
             {navLinks.map((link) => (
