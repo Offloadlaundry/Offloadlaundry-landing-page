@@ -3,8 +3,7 @@ import HeroSection from "@/components/sections/HeroSection";
 import ProblemSolution from "@/components/sections/ProblemSolution";
 import HowItWorks from "@/components/sections/HowItWorks";
 import BrandValue from "@/components/sections/BrandValue";
-import PricingPlans from "@/components/sections/PricingPlans";
-import EarlyAccessCTA from "@/components/sections/EarlyAccessCTA";
+import PricingSection from "@/components/sections/PricingSection";
 import FAQSection from "@/components/sections/FAQSection";
 import Footer from "@/components/layout/Footer";
 
@@ -17,8 +16,7 @@ export default function Home() {
         <ProblemSolution />
         <HowItWorks />
         <BrandValue />
-        <PricingPlans />
-        <EarlyAccessCTA />
+        <PricingSection />
         <FAQSection />
       </main>
       <Footer />
