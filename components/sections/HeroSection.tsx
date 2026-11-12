@@ -7,10 +7,7 @@ export default function HeroSection() {
       <div className="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8 py-12 lg:py-20">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           <div className="text-white order-2 lg:order-1">
-            <div className="inline-block px-3 py-1 rounded-full bg-white/10 text-secondary text-xs font-semibold tracking-widest uppercase mb-6">
-              {heroContent.eyebrow}
-            </div>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black leading-tight mb-6 whitespace-pre-line">
+                        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black leading-tight mb-6 whitespace-pre-line">
               {heroContent.headline}
             </h1>
             <p className="text-white/80 text-lg leading-relaxed max-w-lg">{heroContent.supportingCopy}</p>
