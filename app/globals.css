@@ -5,8 +5,15 @@
 @tailwind utilities;
 
 :root {
-  --foreground: #2a2a2a;
-  --background: #fafafa;
+  /* OffLoad Laundry Brand Colors */
+  --primary: #002707; /* Deep dark green */
+  --primary-light: #134c46; /* Lighter green for accents */
+  --secondary: #decfaa; /* Cream/beige */
+  --secondary-light: #f3ebd2; /* Light cream */
+  --accent: #76805e; /* Muted sage */
+  --foreground: #1a1a1a; /* Very dark text */
+  --foreground-light: #4a4a4a; /* Medium dark text */
+  --background: #fafafa; /* Off-white */
 }
 
 html {

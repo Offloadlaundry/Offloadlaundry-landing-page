@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Using the exact logo design -->
+  <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==" width="512" height="512"/>
+  
+  <!-- Fallback: Simple representation if image doesn't load -->
+  <rect width="512" height="512" fill="#134c46"/>
+  <circle cx="256" cy="180" r="140" fill="none" stroke="#f3ebD2" stroke-width="30"/>
+  <text x="256" y="180" font-family="Helvetica, Arial, sans-serif" font-size="80" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#f3ebD2">OFF</text>
+</svg>

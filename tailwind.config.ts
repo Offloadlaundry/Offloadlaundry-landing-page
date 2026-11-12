@@ -9,21 +9,25 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary: "#0D4F4A", // Deep teal / dark green (Req 6.1)
-        secondary: "#B8E6E0", // Soft mint / light aqua (Req 6.1)
-        accent: "#F5C842", // Warm yellow (Req 6.2)
-        background: "#FAFAFA", // White / very light neutral (Req 6.1)
-        "background-white": "#FFFFFF",
-        text: "#2A2A2A", // Dark charcoal (Req 6.1)
-        footer: "#0A2E2C", // Deep navy / dark teal (Req 6.1)
+        // Updated to match OffLoad Laundry logo colors
+        primary: "#002707", // Very dark green from logo
+        "primary-light": "#134c46", // Lighter dark green for variations
+        secondary: "#decfaa", // Cream/beige from logo
+        "secondary-light": "#f3ebd2", // Lighter cream for accents
+        accent: "#76805e", // Muted sage green from logo
+        background: "#fafafa", // Off-white
+        "background-white": "#ffffff",
+        text: "#1a1a1a", // Very dark for better contrast
+        "text-light": "#4a4a4a", // Medium dark for secondary text
+        footer: "#002707", // Match primary for footer
       },
       fontFamily: {
-        sans: ["Inter", "DM Sans", "system-ui", "sans-serif"], // Req 6.3
+        sans: ["Inter", "DM Sans", "system-ui", "sans-serif"],
       },
       screens: {
-        mobile: { max: "639px" }, // < 640px (Req 5.3)
-        tablet: "640px", // 640px - 1023px (Req 5.2)
-        desktop: "1024px", // >= 1024px (Req 5.1)
+        mobile: { max: "639px" },
+        tablet: "640px",
+        desktop: "1024px",
       },
     },
   },

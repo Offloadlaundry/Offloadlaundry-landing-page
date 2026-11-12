@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OffLoad Laundry — Laundry Beres, Waktu Lebih Bebas.</title>
+    
+    <!-- Cache busting dengan timestamp -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate, max-age=0">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    
+    <!-- Favicon dengan cache busting query param -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico?v=1" id="favicon-ico">
+    <link rel="icon" type="image/png" href="/favicon-512.png?v=1" sizes="512x512">
+    <link rel="icon" type="image/png" href="/favicon-256.png?v=1" sizes="256x256">
+    <link rel="icon" type="image/png" href="/favicon-192.png?v=1" sizes="192x192">
+    <link rel="icon" type="image/png" href="/favicon-128.png?v=1" sizes="128x128">
+    <link rel="icon" type="image/png" href="/favicon-64.png?v=1" sizes="64x64">
+    <link rel="icon" type="image/png" href="/favicon-32.png?v=1" sizes="32x32">
+    <link rel="apple-touch-icon" href="/favicon-192.png?v=1">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #134c46 0%, #0a3d37 100%);
+            color: #FAFAFA;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 600px;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 2.8rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+        
+        .tagline {
+            font-size: 1.3rem;
+            font-weight: 300;
+            margin-bottom: 40px;
+            opacity: 0.9;
+        }
+        
+        .location {
+            background: rgba(250, 250, 250, 0.08);
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            border: 1px solid rgba(250, 250, 250, 0.1);
+        }
+        
+        .cta {
+            display: inline-block;
+            padding: 16px 48px;
+            background: #FAFAFA;
+            color: #134c46;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            margin: 20px 0;
+            cursor: pointer;
+            transition: all 0.3s;
+            border: none;
+        }
+        
+        .cta:hover {
+            background: transparent;
+            color: #FAFAFA;
+            transform: translateY(-2px);
+        }
+        
+        .status {
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 1px solid rgba(250, 250, 250, 0.2);
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+        
+        .icon {
+            font-size: 80px;
+            margin: 20px 0;
+        }
+        
+        .info-box {
+            background: rgba(250, 250, 250, 0.05);
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+            font-size: 0.85rem;
+            border-left: 3px solid rgba(250, 250, 250, 0.3);
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="icon">🧺</div>
+        <h1>OffLoad Laundry</h1>
+        <p class="tagline">Laundry Beres, Waktu Lebih Bebas.</p>
+        
+        <div class="location">
+            <p><strong>📍 Hadir di SCBD, Jakarta Selatan</strong></p>
+        </div>
+        
+        <button class="cta">Daftar Early Access</button>
+        
+        <div class="status">
+            ✓ Favicon seharusnya muncul di tab browser
+            
+            <div class="info-box">
+                <strong>Favicon Design:</strong><br>
+                Circular hanger + tripod stand (sesuai logo)
+                <br><br>
+                <strong>Jika masih tidak muncul:</strong><br>
+                1. Tutup tab ini sepenuhnya<br>
+                2. Buka URL baru: <code style="background: rgba(0,0,0,0.2); padding: 2px 6px; border-radius: 3px;">http://localhost:3000/index-fresh.html</code><br>
+                3. Pastikan favicon muncul di tab
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Force favicon reload
+        function reloadFavicon() {
+            const timestamp = new Date().getTime();
+            const link = document.getElementById('favicon-ico');
+            if (link) {
+                link.href = `/favicon.ico?v=${timestamp}`;
+            }
+        }
+        
+        // Reload favicon saat page load
+        window.addEventListener('load', reloadFavicon);
+    </script>
+</body>
+</html>

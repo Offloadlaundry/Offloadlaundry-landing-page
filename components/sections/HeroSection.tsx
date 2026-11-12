@@ -3,7 +3,7 @@ import { heroContent } from "@/content/sections";
 
 export default function HeroSection() {
   return (
-    <section id="beranda" className="min-h-screen bg-gradient-to-br from-primary via-primary to-[#0a3d38] flex items-center pt-16">
+    <section id="beranda" className="min-h-screen bg-gradient-to-br from-primary via-primary to-primary-light flex items-center pt-16">
       <div className="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8 py-12 lg:py-20">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           <div className="text-white order-2 lg:order-1">
