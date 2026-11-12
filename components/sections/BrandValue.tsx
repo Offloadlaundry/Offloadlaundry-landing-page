@@ -21,7 +21,7 @@ export default function BrandValue() {
               <div className="absolute inset-8 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center">
                 <div className="text-center">
                   <div className="text-6xl mb-2">👕</div>
-                  <div className="text-white/60 text-sm font-medium">OffLoad Laundry</div>
+                  <div className="text-white/60 text-sm font-medium">OFFLOAD Laundry</div>
                   <div className="text-secondary text-xs mt-1">Segera Hadir</div>
                 </div>
               </div>

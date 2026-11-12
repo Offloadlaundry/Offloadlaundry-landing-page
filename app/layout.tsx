@@ -2,8 +2,8 @@
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "OffLoad Laundry — Laundry Beres, Waktu Lebih Bebas.",
-  description: "OffLoad Laundry hadir di SCBD, Jakarta Selatan. Daftar early access untuk jadi yang pertama tahu.",
+  title: "OFFLOAD Laundry — Laundry Beres, Waktu Lebih Bebas.",
+  description: "OFFLOAD Laundry hadir di SCBD, Jakarta Selatan. Daftar early access untuk jadi yang pertama tahu.",
   icons: {
     icon: [
       { url: "/favicon-512.png", sizes: "512x512", type: "image/png" },

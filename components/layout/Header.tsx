@@ -3,7 +3,7 @@ import { useState } from "react";
 
 const navLinks = [
   { label: "Beranda", target: "#beranda" },
-  { label: "Kenapa OffLoad Laundry", target: "#kenapa" },
+  { label: "Kenapa OFFLOAD Laundry", target: "#kenapa" },
   { label: "Cara Kerja", target: "#cara-kerja" },
   { label: "FAQ", target: "#faq" },
 ];
@@ -31,8 +31,8 @@ export default function Header() {
             {/* Logo Container - Elegant Shadow Effect */}
             <div className="flex items-center justify-center w-20 h-20 rounded-lg bg-white shadow-md group-hover:shadow-lg transition-shadow flex-shrink-0">
               <img
-                src="/offload-logo.png"
-                alt="OffLoad Laundry"
+                src="/OFFLOAD-logo.png"
+                alt="OFFLOAD Laundry"
                 className="w-16 h-16 object-contain"
               />
             </div>
@@ -40,7 +40,7 @@ export default function Header() {
             {/* Brand Name - Single Line on Desktop */}
             <div className="flex items-center leading-tight hidden sm:flex">
               <span className="font-black text-primary text-lg tracking-tight whitespace-nowrap">
-                OffLoad Laundry
+                OFFLOAD Laundry
               </span>
             </div>
           </a>

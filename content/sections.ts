@@ -5,16 +5,16 @@ export const heroContent = {
   eyebrow: "SEGERA HADIR DI SCBD, JAKARTA SELATAN",
   headline: "Laundry Beres,\nWaktu Lebih Bebas.",
   supportingCopy:
-    "Rutinitas sudah cukup padat. Urusan laundry seharusnya nggak ikut bikin repot. OffLoad Laundry sedang menyiapkan layanan laundry online yang praktis untuk membantu kamu punya lebih banyak waktu untuk hal yang penting.",
+    "Rutinitas sudah cukup padat. Urusan laundry seharusnya nggak ikut bikin repot. OFFLOAD Laundry sedang menyiapkan layanan laundry online yang praktis untuk membantu kamu punya lebih banyak waktu untuk hal yang penting.",
   formHeading: "Jadi yang Pertama Tahu!",
   formSupportingText:
-    "Tinggalkan nama dan Instagram kamu. Kami akan mengabari saat OffLoad Laundry semakin dekat dengan hari peluncuran.",
+    "Tinggalkan nama dan Instagram kamu. Kami akan mengabari saat OFFLOAD Laundry semakin dekat dengan hari peluncuran.",
 };
 
 export const problemSolutionContent = {
   headline: "Waktu Kamu Terlalu Berharga untuk Habis Mengurus Laundry.",
   supportingCopy:
-    "Mulai dari memilah pakaian, mencuci, sampai memastikan semuanya siap dipakai lagi—urusan laundry bisa menyita waktu di tengah jadwal yang padat. OffLoad Laundry hadir dengan ide sederhana: membuat pengalaman laundry terasa lebih praktis, supaya kamu bisa fokus pada aktivitas yang lebih penting.",
+    "Mulai dari memilah pakaian, mencuci, sampai memastikan semuanya siap dipakai lagi—urusan laundry bisa menyita waktu di tengah jadwal yang padat. OFFLOAD Laundry hadir dengan ide sederhana: membuat pengalaman laundry terasa lebih praktis, supaya kamu bisa fokus pada aktivitas yang lebih penting.",
   benefits: [
     {
       icon: "✦",
@@ -32,7 +32,7 @@ export const problemSolutionContent = {
       icon: "📍",
       title: "Lebih Mudah Diakses",
       description:
-        "OffLoad Laundry sedang dipersiapkan untuk menemani kebutuhan laundry masyarakat SCBD, Jakarta Selatan.",
+        "OFFLOAD Laundry sedang dipersiapkan untuk menemani kebutuhan laundry masyarakat SCBD, Jakarta Selatan.",
     },
   ],
 };
@@ -66,25 +66,25 @@ export const howItWorksContent = {
 export const brandValueContent = {
   headline: "Bukan Cuma Soal Pakaian Bersih.\nIni Soal Waktu Kamu.",
   bodyCopy:
-    "Kami percaya hal sederhana seperti mengurus laundry seharusnya tidak mengambil terlalu banyak ruang dalam keseharian. OffLoad Laundry ingin membantu menciptakan pengalaman yang lebih praktis, agar kamu punya lebih banyak ruang untuk menjalani hidup.",
+    "Kami percaya hal sederhana seperti mengurus laundry seharusnya tidak mengambil terlalu banyak ruang dalam keseharian. OFFLOAD Laundry ingin membantu menciptakan pengalaman yang lebih praktis, agar kamu punya lebih banyak ruang untuk menjalani hidup.",
 };
 
 export const earlyAccessContent = {
   headline: "Jadi yang Pertama Tahu.",
   supportingCopy:
-    "OffLoad Laundry sedang dalam perjalanan menuju SCBD, Jakarta Selatan. Bergabunglah dalam daftar early access dan jadi salah satu orang pertama yang mendapatkan kabar saat kami siap meluncur.",
+    "OFFLOAD Laundry sedang dalam perjalanan menuju SCBD, Jakarta Selatan. Bergabunglah dalam daftar early access dan jadi salah satu orang pertama yang mendapatkan kabar saat kami siap meluncur.",
   buttonText: "Gabung Early Access",
 };
 
 export const footerContent = {
-  wordmark: "OffLoad Laundry",
+  wordmark: "OFFLOAD Laundry",
   description:
     "Pengalaman laundry yang lebih sederhana akan hadir di SCBD, Jakarta Selatan.",
   navLinks: [
     { label: "Beranda", target: "#beranda" },
-    { label: "Kenapa OffLoad Laundry", target: "#kenapa" },
+    { label: "Kenapa OFFLOAD Laundry", target: "#kenapa" },
     { label: "Cara Kerja", target: "#cara-kerja" },
     { label: "FAQ", target: "#faq" },
   ],
-  copyright: "© 2026 OffLoad Laundry. Hak Cipta Dilindungi.",
+  copyright: "© 2026 OFFLOAD Laundry. Hak Cipta Dilindungi.",
 };

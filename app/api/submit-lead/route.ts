@@ -35,7 +35,7 @@ export async function POST(request: Request): Promise<Response> {
       return Response.json({
         success: false,
         message:
-          "Endpoint belum dikonfigurasi. Silakan hubungi tim OffLoad Laundry.",
+          "Endpoint belum dikonfigurasi. Silakan hubungi tim OFFLOAD Laundry.",
       });
     }
 

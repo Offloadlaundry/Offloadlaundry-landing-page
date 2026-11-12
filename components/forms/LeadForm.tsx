@@ -63,7 +63,7 @@ export default function LeadForm() {
               </svg>Mendaftar...</span>
           ) : "Daftar Early Access"}
         </button>
-        <p className="text-xs text-gray-500 text-center leading-relaxed">Gratis untuk bergabung. Kami akan menghubungi kamu saat OffLoad Laundry siap hadir.</p>
+        <p className="text-xs text-gray-500 text-center leading-relaxed">Gratis untuk bergabung. Kami akan menghubungi kamu saat OFFLOAD Laundry siap hadir.</p>
         <p className="text-xs text-gray-400 text-center">Dengan mendaftar, kamu menyetujui{" "}
           <button type="button" onClick={() => setShowPrivacy(true)} className="underline text-primary hover:text-primary/80 transition-colors">Kebijakan Privasi</button>{" "}kami.</p>
       </form>

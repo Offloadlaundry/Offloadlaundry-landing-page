@@ -7,19 +7,19 @@ export interface FAQItem {
 
 export const faqItems: FAQItem[] = [
   {
-    question: "Apa itu OffLoad Laundry?",
+    question: "Apa itu OFFLOAD Laundry?",
     answer:
-      "OffLoad Laundry adalah layanan laundry online yang sedang dipersiapkan untuk membantu urusan laundry terasa lebih praktis.",
+      "OFFLOAD Laundry adalah layanan laundry online yang sedang dipersiapkan untuk membantu urusan laundry terasa lebih praktis.",
   },
   {
-    question: "Apakah OffLoad Laundry sudah bisa digunakan?",
+    question: "Apakah OFFLOAD Laundry sudah bisa digunakan?",
     answer:
-      "Belum. Saat ini OffLoad Laundry masih dalam tahap pre-launch dan belum menerima pesanan. Kami sedang mempersiapkan layanan sebelum resmi hadir.",
+      "Belum. Saat ini OFFLOAD Laundry masih dalam tahap pre-launch dan belum menerima pesanan. Kami sedang mempersiapkan layanan sebelum resmi hadir.",
   },
   {
-    question: "Di mana OffLoad Laundry akan tersedia?",
+    question: "Di mana OFFLOAD Laundry akan tersedia?",
     answer:
-      "OffLoad Laundry sedang dipersiapkan untuk area SCBD, Jakarta Selatan. Informasi cakupan layanan lebih detail akan diumumkan menjelang peluncuran.",
+      "OFFLOAD Laundry sedang dipersiapkan untuk area SCBD, Jakarta Selatan. Informasi cakupan layanan lebih detail akan diumumkan menjelang peluncuran.",
   },
   {
     question: "Bagaimana cara mendapatkan informasi peluncurannya?",

@@ -26,7 +26,7 @@ export default function ThankYouModal({ isOpen, onClose }: ThankYouModalProps) {
         </div>
         <h2 className="text-2xl font-bold text-primary mb-3">Kamu Sudah Masuk Daftar!</h2>
         <p className="text-gray-600 leading-relaxed mb-6">
-          Terima kasih sudah tertarik dengan OffLoad Laundry. Kami akan mengabari kamu saat ada update terbaru menjelang peluncuran.
+          Terima kasih sudah tertarik dengan OFFLOAD Laundry. Kami akan mengabari kamu saat ada update terbaru menjelang peluncuran.
         </p>
         <button
           onClick={onClose}

@@ -1,4 +1,4 @@
-✓ FAVICON OffLOAD LAUNDRY - UPDATED
+✓ FAVICON OFFLOAD LAUNDRY - UPDATED
 ====================================
 
 Design: Circular Hanger + Tripod Stand
@@ -18,7 +18,7 @@ Files Created:
 - favicon-16.png
 
 Test Page:
-Open in browser: http://localhost:3000/offload-favicon-test.html
+Open in browser: http://localhost:3000/OFFLOAD-favicon-test.html
 
 Or refresh landing page with:
 - Hard Refresh: Cmd+Shift+R (macOS) or Ctrl+Shift+R (Windows)

@@ -10,7 +10,7 @@ export default function FAQSection() {
       <Container>
         <div className="max-w-2xl mx-auto text-center mb-12">
           <h2 className="text-3xl sm:text-4xl font-black text-primary mb-4">Pertanyaan Umum</h2>
-          <p className="text-gray-600">Ada yang ingin kamu ketahui tentang OffLoad Laundry?</p>
+          <p className="text-gray-600">Ada yang ingin kamu ketahui tentang OFFLOAD Laundry?</p>
         </div>
         <div className="max-w-2xl mx-auto space-y-3">
           {faqItems.map((item, index) => (
