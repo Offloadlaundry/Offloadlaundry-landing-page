@@ -1,4 +1,4 @@
-﻿// content/sections.ts
+﻿// content/sections.ts (UPDATED dengan pricing content)
 // All website copy lives here, separate from UI components (design.md architecture)
 
 export const heroContent = {
@@ -67,6 +67,55 @@ export const brandValueContent = {
   headline: "Bukan Cuma Soal Pakaian Bersih.\nIni Soal Waktu Kamu.",
   bodyCopy:
     "Kami percaya hal sederhana seperti mengurus laundry seharusnya tidak mengambil terlalu banyak ruang dalam keseharian. OFFLOAD Laundry ingin membantu menciptakan pengalaman yang lebih praktis, agar kamu punya lebih banyak ruang untuk menjalani hidup.",
+};
+
+export const pricingContent = {
+  headline: "Berlangganan",
+  supportingCopy: "Pilih paket yang sesuai dengan kebutuhan Anda.",
+  plans: [
+    {
+      id: "essential",
+      name: "Essential",
+      weight: "10 KG",
+      price: "160.000",
+      bonus: "Bonus 3 KG",
+      bonusLabel: "Bulan pertama",
+      features: [
+        { icon: "🧥", label: "Cuci Setrika Wangi" },
+        { icon: "🚚", label: "Pickup & Delivery 1x/minggu" },
+        { icon: "⏰", label: "Pengerjaan 1 hari" },
+      ],
+    },
+    {
+      id: "standard",
+      name: "Standard+",
+      weight: "20 KG",
+      price: "300.000",
+      bonus: "Bonus 5 KG",
+      bonusLabel: "Bulan pertama",
+      isRecommended: true,
+      features: [
+        { icon: "🧥", label: "Cuci Setrika Wangi" },
+        { icon: "🚚", label: "Pickup & Delivery 2x/minggu" },
+        { icon: "⭐", label: "Prioritas pickup" },
+        { icon: "⏰", label: "Pengerjaan 1 hari" },
+      ],
+    },
+    {
+      id: "ultimate",
+      name: "Ultimate",
+      weight: "30 KG",
+      price: "420.000",
+      bonus: "Bonus 7 KG",
+      bonusLabel: "Bulan pertama",
+      features: [
+        { icon: "🧥", label: "Cuci Setrika Wangi" },
+        { icon: "🚚", label: "Pickup & Delivery 2x/minggu" },
+        { icon: "⭐", label: "Prioritas pickup" },
+        { icon: "⏰", label: "Pengerjaan 1 hari" },
+      ],
+    },
+  ],
 };
 
 export const earlyAccessContent = {
