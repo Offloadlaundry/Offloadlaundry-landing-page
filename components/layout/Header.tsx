@@ -31,7 +31,7 @@ export default function Header() {
             {/* Logo Container - Elegant Shadow Effect */}
             <div className="flex items-center justify-center w-20 h-20 rounded-lg bg-white shadow-md group-hover:shadow-lg transition-shadow flex-shrink-0">
               <img
-                src="/OFFLOAD-logo.png"
+                src="/offload-logo.png"
                 alt="OFFLOAD Laundry"
                 className="w-16 h-16 object-contain"
               />
