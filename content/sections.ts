@@ -1,13 +1,12 @@
 ﻿// content/sections.ts
 
 export const heroContent = {
-  eyebrow: "SEGERA HADIR DI SCBD, JAKARTA SELATAN",
-  headline: "Laundry Beres,\nWaktu Lebih Bebas.",
+   headline: "More time for what matters.",
   supportingCopy:
-    "Rutinitas sudah cukup padat. Urusan laundry seharusnya nggak ikut bikin repot. OFFLOAD Laundry sedang menyiapkan layanan laundry online yang praktis untuk membantu kamu punya lebih banyak waktu untuk hal yang penting.",
-  formHeading: "Jadi yang Pertama Tahu!",
+    "Waktu begitu berharga. Biar kami yang urus laundry dan kamu bebas melakukan hal yang lebih berarti. OFFLOAD Laundry online hadir mengutamakan kualitas, ketepatan waktu, dan kenyamananmu. Coming soon near you, Jakarta Selatan professionals.",
+  formHeading: "Secure your fresh start!",
   formSupportingText:
-    "Tinggalkan nama dan Instagram kamu. Kami akan mengabari saat OFFLOAD Laundry semakin dekat dengan hari peluncuran.",
+    "Sign up for Early Access and enjoy our Welcome Perks when we lauch!",
 };
 
 export const problemSolutionContent = {
@@ -71,14 +70,14 @@ export const brandValueContent = {
 export const earlyAccessContent = {
   headline: "Jadi yang Pertama Tahu.",
   supportingCopy:
-    "OFFLOAD Laundry sedang dalam perjalanan menuju SCBD, Jakarta Selatan. Bergabunglah dalam daftar early access dan jadi salah satu orang pertama yang mendapatkan kabar saat kami siap meluncur.",
+    "OFFLOAD Laundry sedang dalam perjalanan menuju Jakarta Selatan. Bergabunglah dalam daftar early access dan jadi salah satu orang pertama yang mendapatkan kabar saat kami siap meluncur.",
   buttonText: "Gabung Early Access",
 };
 
 export const footerContent = {
   wordmark: "OFFLOAD Laundry",
   description:
-    "Pengalaman laundry yang lebih sederhana akan hadir di SCBD, Jakarta Selatan.",
+    "Pengalaman laundry yang lebih sederhana akan hadir di Jakarta Selatan.",
   navLinks: [
     { label: "Beranda", target: "#beranda" },
     { label: "Kenapa OFFLOAD Laundry", target: "#kenapa" },
