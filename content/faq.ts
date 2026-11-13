@@ -9,26 +9,26 @@ export const faqItems: FAQItem[] = [
   {
     question: "Apa itu OFFLOAD Laundry?",
     answer:
-      "OFFLOAD Laundry adalah layanan laundry online yang sedang dipersiapkan untuk membantu urusan laundry terasa lebih praktis.",
+      "OFFLOAD Laundry merupakan layanan laundry online yang akan segera hadir untuk membantu kamu dengan layanan yang praktis dan terpercaya. Stay tuned!",
   },
   {
-    question: "Apakah OFFLOAD Laundry sudah bisa digunakan?",
+    question: "Kapan bisa mulai book layanan?",
     answer:
-      "Belum. Saat ini OFFLOAD Laundry masih dalam tahap pre-launch dan belum menerima pesanan. Kami sedang mempersiapkan layanan sebelum resmi hadir.",
+      "Saat ini OFFLOAD Laundry masih dalam tahap pre-launch sehingga kamu belum bisa book. Daftar ke list Early Access untuk mendapatkan info terupdate selagi kami memepersiapkan layanan terbaik untukmu.",
   },
   {
-    question: "Di mana OFFLOAD Laundry akan tersedia?",
+    question: "Di mana saja area operasional OFFLOAD Laundry?",
     answer:
-      "OFFLOAD Laundry sedang dipersiapkan untuk area SCBD, Jakarta Selatan. Informasi cakupan layanan lebih detail akan diumumkan menjelang peluncuran.",
+      "Kami akan beroperasi di daerah Jakarta Selatan. Kami akan update area yang lebih spesifik menjelang launch.",
   },
   {
-    question: "Bagaimana cara mendapatkan informasi peluncurannya?",
+    question: "Bagaimana caranya mendapatkan info mengenai launching?",
     answer:
-      "Isi form early access dengan nama lengkap dan Instagram username kamu. Kami akan mengabari saat ada informasi terbaru.",
+      "Isi form di atas agar kami bisa mengirimkanmu informasi terbaru. Let's keep in touch!",
   },
   {
-    question: "Apakah ada biaya untuk bergabung dalam early access?",
+    question: "Apakah ada biaya bergabung ke list early access?",
     answer:
-      "Tidak. Mengisi form early access hanya untuk menyatakan ketertarikan dan mendapatkan informasi peluncuran.",
+      "Tidak ada sama sekali! Form ini digunakan untuk membagi informasi mengenai layanan saat launching nanti.",
   },
 ];
