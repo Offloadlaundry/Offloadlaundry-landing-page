@@ -62,9 +62,9 @@ export const howItWorksContent = {
 };
 
 export const brandValueContent = {
-  headline: "Bukan Cuma Soal Pakaian Bersih.\nIni Soal Waktu Kamu.",
+  headline: "Lebih dari Sekadar Laundry Selesai. Ada Waktu yang Kembali.",
   bodyCopy:
-    "Kami percaya hal sederhana seperti mengurus laundry seharusnya tidak mengambil terlalu banyak ruang dalam keseharian. OFFLOAD Laundry ingin membantu menciptakan pengalaman yang lebih praktis, agar kamu punya lebih banyak ruang untuk menjalani hidup.",
+    "Karena hidup bukan hanya tentang menyelesaikan daftar pekerjaan setiap hari. Ada waktu untuk beristirahat, menikmati momen, dan melakukan hal-hal yang membuat kamu bahagia. OFFLOAD Laundry siap membantu urusan laundry-mu.",
 };
 
 export const earlyAccessContent = {
