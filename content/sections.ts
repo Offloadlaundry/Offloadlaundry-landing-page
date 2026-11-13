@@ -42,21 +42,21 @@ export const howItWorksContent = {
   steps: [
     {
       number: "01",
-      title: "Kenali Kebutuhan Laundry Kamu",
+      title: "Pilih Paket",
       description:
-        "Mulai dengan mengetahui kebutuhan laundry yang ingin kamu selesaikan.",
+        "Tentukan layanan yang sesuai dengan keperluan laundry-mu.",
     },
     {
       number: "02",
-      title: "Proses yang Lebih Praktis",
+      title: "Kami Ambil Alih",
       description:
-        "Nikmati pengalaman layanan yang dirancang agar urusan laundry terasa lebih sederhana.",
+        "Setelah konfirmasi, kami pick-up laundry kamu dan kerjakan.",
     },
     {
       number: "03",
-      title: "Kembali ke Aktivitas Kamu",
+      title: "Gunakan Waktu Ekstra",
       description:
-        "Lebih banyak waktu untuk pekerjaan, keluarga, hobi, dan hal-hal yang kamu suka.",
+        "Kamu bebas menjalani hari tanpa lelah mencuci. Tenang, kami antarkan laundry kamu sesuai perjanjian.",
     },
   ],
 };
