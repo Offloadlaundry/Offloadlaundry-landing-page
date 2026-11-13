@@ -16,21 +16,21 @@ export const problemSolutionContent = {
   benefits: [
     {
       icon: "✦",
-      title: "Lebih Praktis",
+      title: "Lebih praktis tanpa ribet",
       description:
-        "Bayangkan urusan laundry yang bisa dimulai secara online, tanpa harus menambah banyak hal ke to-do list kamu.",
+        "Terima beres dari rumah dengan layanan antar-jemput gratis. Tersedia juga paket subscription agar jadwal cuci mingguanmu berjalan otomatis tanpa perlu pesan berulang kali.",
     },
     {
       icon: "⏱",
-      title: "Lebih Banyak Waktu",
+      title: "Waktu lebih untuk produktif",
       description:
-        "Kurangi waktu yang biasanya tersita untuk mengurus pakaian dan gunakan untuk hal yang lebih berarti.",
+        "Me time-mu tetap milikmu. Baju kotormu, biar jadi urusan kami.",
     },
     {
       icon: "📍",
-      title: "Lebih Mudah Diakses",
+      title: "Lebih dekat dengan keseharianmu",
       description:
-        "OFFLOAD Laundry sedang dipersiapkan untuk menemani kebutuhan laundry masyarakat SCBD, Jakarta Selatan.",
+        "Kami hadir menyatu dengan ritme harianmu, sehingga urusan cucian tak lagi terasa jauh dan merepotkan.",
     },
   ],
 };
