@@ -1,5 +1,12 @@
-﻿import { problemSolutionContent } from "@/content/sections";
+﻿import Image from "next/image";
+import { problemSolutionContent } from "@/content/sections";
 import Container from "@/components/ui/Container";
+
+const iconMap: Record<string, string> = {
+  "Lebih Praktis": "/Icon-Reliability-Sand_Beige_Reliability.png",
+  "Lebih Banyak Waktu": "/Icon-Time_Saving-Sand_Beige_Time saving.png",
+  "Lebih Mudah Diakses": "/Icon-Location-Sand_Beige_Location.png",
+};
 
 export default function ProblemSolution() {
   return (
@@ -12,8 +19,14 @@ export default function ProblemSolution() {
         <div className="grid sm:grid-cols-3 gap-6">
           {problemSolutionContent.benefits.map((benefit) => (
             <div key={benefit.title} className="group bg-white border border-gray-100 rounded-2xl p-7 shadow-sm hover:shadow-md hover:border-secondary transition-all">
-              <div className="w-12 h-12 rounded-xl bg-secondary/40 flex items-center justify-center mb-4 group-hover:bg-secondary transition-colors">
-                <span className="text-2xl">{benefit.icon}</span>
+              <div className="w-24 h-24 rounded-xl bg-primary flex items-center justify-center mb-4 group-hover:bg-primary-light transition-colors overflow-hidden">
+                <Image
+                  src={iconMap[benefit.title] || benefit.icon}
+                  alt={benefit.title}
+                  width={80}
+                  height={80}
+                  className="object-contain p-2"
+                />
               </div>
               <h3 className="text-lg font-bold text-primary mb-2">{benefit.title}</h3>
               <p className="text-gray-500 text-sm leading-relaxed">{benefit.description}</p>

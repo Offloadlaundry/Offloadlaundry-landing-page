@@ -1,4 +1,5 @@
-﻿import { brandValueContent } from "@/content/sections";
+﻿import Image from "next/image";
+import { brandValueContent } from "@/content/sections";
 import Container from "@/components/ui/Container";
 
 export default function BrandValue() {
@@ -15,18 +16,16 @@ export default function BrandValue() {
             </div>
           </div>
           <div className="flex justify-center lg:justify-end">
-            <div className="relative w-72 h-72 lg:w-80 lg:h-80">
-              <div className="absolute inset-0 rounded-3xl bg-white/5 border border-white/10" />
-              <div className="absolute inset-4 rounded-2xl bg-white/5 border border-white/10" />
-              <div className="absolute inset-8 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center">
-                <div className="text-center">
-                  <div className="text-6xl mb-2">👕</div>
-                  <div className="text-white/60 text-sm font-medium">OFFLOAD Laundry</div>
-                  <div className="text-secondary text-xs mt-1">Segera Hadir</div>
-                </div>
+            <div className="relative w-80 h-96 lg:w-96 lg:h-96">
+              <Image
+                src="/offload-logo.png"
+                alt="OffLoad Laundry Logo"
+                fill
+                className="object-contain"
+              />
+              <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-secondary text-sm font-medium">
+                Segera Hadir
               </div>
-              <div className="absolute top-2 right-2 w-3 h-3 rounded-full bg-accent" />
-              <div className="absolute bottom-6 left-4 w-2 h-2 rounded-full bg-secondary/50" />
             </div>
           </div>
         </div>

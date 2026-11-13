@@ -1,7 +1,12 @@
-﻿import { howItWorksContent } from "@/content/sections";
+﻿import Image from "next/image";
+import { howItWorksContent } from "@/content/sections";
 import Container from "@/components/ui/Container";
 
-const stepIcons = ["🧺", "⚙️", "✨"];
+const stepIcons = [
+  "/Icon-Laundry_Basket-Sand_Beige_Laundry Basket.png",
+  "/Icon-Process_washing_machine-Sand_Beige_Process_washing machine.png",
+  "/Icon-Relaxed-Sand_Beige_Relaxed.png",
+];
 
 export default function HowItWorks() {
   return (
@@ -14,9 +19,14 @@ export default function HowItWorks() {
         <div className="grid sm:grid-cols-3 gap-8">
           {howItWorksContent.steps.map((step, i) => (
             <div key={step.number} className="text-center">
-              <div className="w-20 h-20 rounded-full bg-primary text-white flex flex-col items-center justify-center mx-auto mb-5 shadow-lg">
-                <span className="text-xs font-semibold text-white/60">{step.number}</span>
-                <span className="text-xl mt-0.5">{stepIcons[i]}</span>
+              <div className="w-32 h-32 rounded-full bg-primary flex flex-col items-center justify-center mx-auto mb-5 shadow-lg overflow-hidden">
+                <Image
+                  src={stepIcons[i]}
+                  alt={step.title}
+                  width={100}
+                  height={100}
+                  className="object-contain"
+                />
               </div>
               <h3 className="text-base font-bold text-primary mb-2">{step.title}</h3>
               <p className="text-gray-500 text-sm leading-relaxed">{step.description}</p>
