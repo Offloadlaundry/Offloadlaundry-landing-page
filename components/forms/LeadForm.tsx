@@ -61,9 +61,9 @@ export default function LeadForm() {
                 <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
                 <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
               </svg>Mendaftar...</span>
-          ) : "Daftar Early Access"}
+          ) : "Count me in!"}
         </button>
-        <p className="text-xs text-gray-500 text-center leading-relaxed">Gratis untuk bergabung. Kami akan menghubungi kamu saat OFFLOAD Laundry siap hadir.</p>
+        <p className="text-xs text-gray-500 text-center leading-relaxed">Kami akan menghubungi kamu saat OFFLOAD Laundry siap launching.</p>
         <p className="text-xs text-gray-400 text-center">Dengan mendaftar, kamu menyetujui{" "}
           <button type="button" onClick={() => setShowPrivacy(true)} className="underline text-primary hover:text-primary/80 transition-colors">Kebijakan Privasi</button>{" "}kami.</p>
       </form>
