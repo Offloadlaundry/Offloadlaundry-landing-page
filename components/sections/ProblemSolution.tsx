@@ -21,13 +21,13 @@ export default function ProblemSolution() {
             const isLocationIcon = benefit.title === "Lebih Mudah Diakses";
             return (
               <div key={benefit.title} className="group bg-white border border-gray-100 rounded-2xl p-7 shadow-sm hover:shadow-md hover:border-secondary transition-all">
-                <div className="w-24 h-24 rounded-xl bg-primary flex items-center justify-center mb-4 group-hover:bg-primary-light transition-colors overflow-hidden">
+                <div className={`rounded-xl bg-primary flex items-center justify-center mb-4 group-hover:bg-primary-light transition-colors ${isLocationIcon ? 'w-24 h-32 overflow-visible' : 'w-24 h-24 overflow-hidden'}`}>
                   <Image
                     src={iconMap[benefit.title] || benefit.icon}
                     alt={benefit.title}
-                    width={80}
-                    height={80}
-                    className={`object-contain object-center ${isLocationIcon ? 'p-1' : 'p-2'}`}
+                    width={isLocationIcon ? 60 : 80}
+                    height={isLocationIcon ? 100 : 80}
+                    className="object-contain object-center"
                   />
                 </div>
                 <h3 className="text-lg font-bold text-primary mb-2">{benefit.title}</h3>
