@@ -17,21 +17,24 @@ export default function ProblemSolution() {
           <p className="text-gray-600 leading-relaxed">{problemSolutionContent.supportingCopy}</p>
         </div>
         <div className="grid sm:grid-cols-3 gap-6">
-          {problemSolutionContent.benefits.map((benefit) => (
-            <div key={benefit.title} className="group bg-white border border-gray-100 rounded-2xl p-7 shadow-sm hover:shadow-md hover:border-secondary transition-all">
-              <div className="w-24 h-24 rounded-xl bg-primary flex items-center justify-center mb-4 group-hover:bg-primary-light transition-colors overflow-hidden">
-                <Image
-                  src={iconMap[benefit.title] || benefit.icon}
-                  alt={benefit.title}
-                  width={80}
-                  height={80}
-                  className="object-contain p-2"
-                />
+          {problemSolutionContent.benefits.map((benefit) => {
+            const isLocationIcon = benefit.title === "Lebih Mudah Diakses";
+            return (
+              <div key={benefit.title} className="group bg-white border border-gray-100 rounded-2xl p-7 shadow-sm hover:shadow-md hover:border-secondary transition-all">
+                <div className="w-24 h-24 rounded-xl bg-primary flex items-center justify-center mb-4 group-hover:bg-primary-light transition-colors overflow-hidden">
+                  <Image
+                    src={iconMap[benefit.title] || benefit.icon}
+                    alt={benefit.title}
+                    width={80}
+                    height={80}
+                    className={`object-contain object-center ${isLocationIcon ? 'p-1' : 'p-2'}`}
+                  />
+                </div>
+                <h3 className="text-lg font-bold text-primary mb-2">{benefit.title}</h3>
+                <p className="text-gray-500 text-sm leading-relaxed">{benefit.description}</p>
               </div>
-              <h3 className="text-lg font-bold text-primary mb-2">{benefit.title}</h3>
-              <p className="text-gray-500 text-sm leading-relaxed">{benefit.description}</p>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </Container>
     </section>
