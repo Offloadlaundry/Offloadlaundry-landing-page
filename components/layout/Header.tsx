@@ -5,6 +5,7 @@ const navLinks = [
   { label: "Beranda", target: "#beranda" },
   { label: "Kenapa OFFLOAD Laundry", target: "#kenapa" },
   { label: "Cara Kerja", target: "#cara-kerja" },
+  { label: "Harga", target: "#harga" },
   { label: "FAQ", target: "#faq" },
 ];
 
