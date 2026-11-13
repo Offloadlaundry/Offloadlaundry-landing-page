@@ -10,7 +10,7 @@ export default function PricingSection() {
   const subscriptionPlans = [
     {
       name: "Essential",
-      price: "Rp 160.000",
+      price: "Rp160.000",
       features: [
         "Kuota 10 kg layanan Cuci Setrika Wangi",
         "Bonus 3kg untuk 1 bulan pertama",
@@ -87,16 +87,18 @@ export default function PricingSection() {
 
             {/* Features */}
             <div className="p-8">
-              <div className="grid grid-cols-3 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                 {subscriptionPlans.map((plan) => (
                   <div
                     key={plan.name}
-                    className="border border-gray-200 rounded-lg p-4 hover:border-secondary transition-colors"
+                    className="border border-gray-200 rounded-lg p-4 hover:border-secondary transition-colors flex flex-col h-full"
                   >
-                    <h4 className="font-bold text-primary mb-2">{plan.name}</h4>
-                    <p className="text-lg font-bold text-primary mb-3">{plan.price}</p>
-                    <div className="h-px bg-gradient-to-r from-primary/20 to-primary/20 mb-3"></div>
-                    <ul className="space-y-2">
+                    <div>
+                      <h4 className="font-bold text-primary mb-2 text-sm sm:text-base">{plan.name}</h4>
+                      <p className="text-base sm:text-lg font-bold text-primary mb-3">{plan.price}</p>
+                      <div className="h-px bg-gradient-to-r from-primary/20 to-primary/20 mb-3"></div>
+                    </div>
+                    <ul className="space-y-2 flex-1">
                       {plan.features.map((feature, idx) => (
                         <li key={idx} className="text-xs text-gray-600 leading-tight">
                           <span className="text-primary font-bold">•</span> {feature}
@@ -133,13 +135,13 @@ export default function PricingSection() {
             {/* Features */}
             <div className="p-8">
               {/* Services Grid */}
-              <div className="grid grid-cols-2 gap-4 mb-6">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
                 {regularServices.map((service) => (
                   <div
                     key={service.name}
                     className="border border-gray-200 rounded-lg p-4 hover:border-secondary transition-colors"
                   >
-                    <h4 className="font-bold text-primary mb-2">{service.name}</h4>
+                    <h4 className="font-bold text-primary mb-2 text-sm sm:text-base">{service.name}</h4>
                     <div className="h-px bg-gradient-to-r from-primary/20 to-primary/20 mb-2"></div>
                     <p className="text-sm font-bold text-primary">{service.price}</p>
                   </div>
