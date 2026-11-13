@@ -10,9 +10,9 @@ export const heroContent = {
 };
 
 export const problemSolutionContent = {
-  headline: "Waktu Kamu Terlalu Berharga untuk Habis Mengurus Laundry.",
+  headline: "Your Time Matters, Laundry Shouldn't Take It Away.",
   supportingCopy:
-    "Mulai dari memilah pakaian, mencuci, sampai memastikan semuanya siap dipakai lagi—urusan laundry bisa menyita waktu di tengah jadwal yang padat. OFFLOAD Laundry hadir dengan ide sederhana: membuat pengalaman laundry terasa lebih praktis, supaya kamu bisa fokus pada aktivitas yang lebih penting.",
+    "Tidak terasa, urusan pakaian bersih bisa menyita sebagian waktu luangmu. Dari memilah, mencuci, mengeringkan, hingga merapikan pakaian  Padahal, ada banyak hal lain yang mungkin ingin kamu lakukan. Layanan OFFLOAD Laundry menjadikan segalanya lebih mudah, supaya waktumu tetap jadi milikmu.",
   benefits: [
     {
       icon: "✦",
