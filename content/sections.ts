@@ -36,9 +36,9 @@ export const problemSolutionContent = {
 };
 
 export const howItWorksContent = {
-  headline: "Pengalaman Laundry, Kini Lebih Sederhana.",
+  headline: "Hanya 3 Langkah, Bebas Kembali Beraktivitas.",
   supportingCopy:
-    "Kami sedang menyiapkan pengalaman laundry online yang lebih praktis. Ini gambaran sederhana tentang pengalaman yang ingin kami hadirkan.",
+    "Tak perlu lagi menyita waktu istirahatmu. Ikuti tiga langkah mudah berikut untuk mendapatkan pakaian bersih sambil tetap fokus pada kesibukanmu.",
   steps: [
     {
       number: "01",
