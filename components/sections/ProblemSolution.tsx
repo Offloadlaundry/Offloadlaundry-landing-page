@@ -21,7 +21,7 @@ export default function ProblemSolution() {
             const isLocationIcon = benefit.title === "Lebih Mudah Diakses";
             return (
               <div key={benefit.title} className="group bg-white border border-gray-100 rounded-2xl p-7 shadow-sm hover:shadow-md hover:border-secondary transition-all">
-                <div className={`rounded-xl bg-primary flex items-center justify-center mb-4 group-hover:bg-primary-light transition-colors ${isLocationIcon ? 'w-24 h-32 overflow-visible' : 'w-24 h-24 overflow-hidden'}`}>
+                <div className="w-24 h-32 rounded-xl bg-primary flex items-center justify-center mb-4 group-hover:bg-primary-light transition-colors overflow-visible">
                   <Image
                     src={iconMap[benefit.title] || benefit.icon}
                     alt={benefit.title}

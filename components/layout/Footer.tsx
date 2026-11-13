@@ -1,5 +1,6 @@
 ﻿"use client";
 import { useState } from "react";
+import Image from "next/image";
 import { footerContent } from "@/content/sections";
 import PrivacyPolicyModal from "@/components/modals/PrivacyPolicyModal";
 
@@ -15,11 +16,19 @@ export default function Footer() {
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 pb-8 border-b border-white/10">
             <div className="sm:col-span-2 lg:col-span-1">
-              <div className="flex items-center gap-2 mb-4">
-                <div className="w-8 h-8 rounded-lg bg-white/10 flex items-center justify-center">
-                  <span className="text-white font-bold text-sm">OL</span>
+              {/* Hanger Icon + Brand Name - Horizontal Layout */}
+              <div className="flex items-center gap-4 mb-4">
+                <div className="flex-shrink-0 w-10 h-10">
+                  <Image
+                    src="/offload-logo.png"
+                    alt="OFFLOAD Hanger Icon"
+                    width={40}
+                    height={40}
+                    className="w-10 h-10 object-contain"
+                    priority
+                  />
                 </div>
-                <span className="font-bold text-lg">{footerContent.wordmark}</span>
+                <span className="text-2xl font-bold text-white whitespace-nowrap">OFFLOAD Laundry</span>
               </div>
               <p className="text-white/60 text-sm leading-relaxed max-w-xs">{footerContent.description}</p>
             </div>
