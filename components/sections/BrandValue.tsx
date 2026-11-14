@@ -14,7 +14,7 @@ export default function BrandValue() {
           <div className="flex justify-center lg:justify-end">
             <div className="relative w-80 h-96 lg:w-96 lg:h-96">
               <Image
-                src="/offload-logo.png"
+                src="/offload-logo (1).png"
                 alt="OffLoad Laundry Logo"
                 fill
                 className="object-contain"
