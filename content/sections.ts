@@ -3,7 +3,7 @@
 export const heroContent = {
    headline: "More time for what matters.",
   supportingCopy:
-    "Waktu begitu berharga. Biar kami yang urus laundry dan kamu bebas melakukan hal yang lebih berarti. OFFLOAD Laundry online akan hadir mengutamakan kualitas, ketepatan waktu, dan kenyamananmu. Coming soon near you, Jakarta Selatan professionals.",
+    "Waktu begitu berharga. Biar kami yang urus laundry dan kamu bebas melakukan hal yang lebih berarti. OFFLOAD Laundry online akan hadir mengutamakan kualitas, ketepatan waktu, dan kenyamananmu. Coming soon near you, SCBD professionals.",
   formHeading: "Secure your fresh start!",
   formSupportingText:
     "Sign up for Early Access and enjoy our Welcome Perks when we launch!",
@@ -70,14 +70,14 @@ export const brandValueContent = {
 export const earlyAccessContent = {
   headline: "Jadi yang Pertama Tahu.",
   supportingCopy:
-    "OFFLOAD Laundry sedang dalam perjalanan menuju Jakarta Selatan. Bergabunglah dalam daftar early access dan jadi salah satu orang pertama yang mendapatkan kabar saat kami siap meluncur.",
+    "OFFLOAD Laundry sedang dalam perjalanan menuju SCBD. Bergabunglah dalam daftar early access dan jadi salah satu orang pertama yang mendapatkan kabar saat kami siap meluncur.",
   buttonText: "Gabung Early Access",
 };
 
 export const footerContent = {
   wordmark: "OFFLOAD Laundry",
   description:
-    "Pengalaman laundry yang lebih sederhana akan hadir di Jakarta Selatan.",
+    "Pengalaman laundry yang lebih sederhana akan hadir di SCBD.",
   navLinks: [
     { label: "Beranda", target: "#beranda" },
     { label: "Kenapa OFFLOAD Laundry", target: "#kenapa" },
