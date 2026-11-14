@@ -3,7 +3,7 @@
 export const heroContent = {
    headline: "More time for what matters.",
   supportingCopy:
-    "Waktu begitu berharga. Biar kami yang urus laundry dan kamu bebas melakukan hal yang lebih berarti. OFFLOAD Laundry online hadir mengutamakan kualitas, ketepatan waktu, dan kenyamananmu. Coming soon near you, Jakarta Selatan professionals.",
+    "Waktu begitu berharga. Biar kami yang urus laundry dan kamu bebas melakukan hal yang lebih berarti. OFFLOAD Laundry online akan hadir mengutamakan kualitas, ketepatan waktu, dan kenyamananmu. Coming soon near you, Jakarta Selatan professionals.",
   formHeading: "Secure your fresh start!",
   formSupportingText:
     "Sign up for Early Access and enjoy our Welcome Perks when we lauch!",
