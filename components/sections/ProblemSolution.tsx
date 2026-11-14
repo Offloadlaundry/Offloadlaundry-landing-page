@@ -25,8 +25,13 @@ export default function ProblemSolution() {
                   className="w-20 h-20 object-contain"
                 />
               </div>
-              <h3 className="text-lg font-bold text-primary mb-2">{benefit.title}</h3>
-              <p className="text-gray-500 text-sm leading-relaxed">{benefit.description}</p>
+             <h3 className="text-lg font-bold text-primary mb-2 text-center">
+  {benefit.title}
+</h3>
+
+<p className="text-gray-500 text-sm leading-relaxed text-center">
+  {benefit.description}
+</p>
             </div>
           ))}
         </div>
