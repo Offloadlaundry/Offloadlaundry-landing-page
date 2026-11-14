@@ -9,8 +9,8 @@ export default function FAQSection() {
     <section id="faq" className="py-20 lg:py-28 bg-secondary/10">
       <Container>
         <div className="max-w-2xl mx-auto text-center mb-12">
-          <h2 className="text-3xl sm:text-4xl font-black text-primary mb-4">Pertanyaan Umum</h2>
-          <p className="text-gray-600">Ada yang ingin kamu ketahui tentang OFFLOAD Laundry?</p>
+          <h2 className="text-3xl sm:text-4xl font-black text-primary mb-4">Frequently Asked Questions</h2>
+          <p className="text-gray-600">Punya pertanyaan untuk OFFLOAD Laundry?</p>
         </div>
         <div className="max-w-2xl mx-auto space-y-3">
           {faqItems.map((item, index) => (
