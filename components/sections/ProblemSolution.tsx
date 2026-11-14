@@ -18,7 +18,7 @@ export default function ProblemSolution() {
         <div className="grid sm:grid-cols-3 gap-6">
           {problemSolutionContent.benefits.map((benefit) => (
             <div key={benefit.title} className="group bg-white border border-gray-100 rounded-2xl p-7 shadow-sm hover:shadow-md hover:border-secondary transition-all">
-              <div className="w-24 h-24 rounded-lg bg-primary flex items-center justify-center mb-4 group-hover:bg-primary-light transition-colors overflow-hidden p-2">
+              <div className="w-24 h-24 rounded-lg bg-primary flex items-center justify-center mb-4 mx-auto group-hover:bg-primary-light transition-colors overflow-hidden p-2">
                 <img
                   src={iconMap[benefit.title] || "/default-icon.svg"}
                   alt={benefit.title}
