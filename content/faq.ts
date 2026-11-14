@@ -19,7 +19,7 @@ export const faqItems: FAQItem[] = [
   {
     question: "Di mana saja area operasional OFFLOAD Laundry?",
     answer:
-      "Kami akan beroperasi di daerah Jakarta Selatan. Kami akan update area yang lebih spesifik menjelang launch.",
+      "Kami akan beroperasi di daerah SCBD. Kami akan update area yang lebih spesifik menjelang launch.",
   },
   {
     question: "Bagaimana caranya mendapatkan info mengenai launching?",
