@@ -9,7 +9,7 @@ export default function HeroSection() {
   style={{
     backgroundImage: "url('/hero-background.png')",
   }}
-">
+>
       <div className="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8 py-12 lg:py-20">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           <div className="text-white order-2 lg:order-1">
