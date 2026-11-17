@@ -14,8 +14,8 @@ export default function Footer() {
     <>
       <footer className="bg-footer text-white py-12 lg:py-16">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 pb-8 border-b border-white/10">
-            <div className="sm:col-span-2 lg:col-span-1">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 lg:justify-items-center gap-8 pb-8 border-b border-white/10">
+            <div className="sm:col-span-2 lg:col-span-1 lg:justify-self-start">
               {/* Hanger Icon + Brand Name - Horizontal Layout */}
               <div className="flex items-center gap-4 mb-4">
                 <div className="flex-shrink-0 w-10 h-10">
@@ -32,7 +32,7 @@ export default function Footer() {
               </div>
               <p className="text-white/60 text-sm leading-relaxed max-w-xs">{footerContent.description}</p>
             </div>
-            <div>
+            <div className="lg:justify-self-center">
               <h3 className="text-xs font-semibold text-white/40 uppercase tracking-widest mb-4">Navigasi</h3>
               <ul className="space-y-2">
                 {footerContent.navLinks.map((link) => (
@@ -43,7 +43,7 @@ export default function Footer() {
                 ))}
               </ul>
             </div>
-            <div>
+            <div className="lg:justify-self-end">
               <h3 className="text-xs font-semibold text-white/40 uppercase tracking-widest mb-4">Legal</h3>
               <button onClick={() => setShowPrivacy(true)}
                 className="text-sm text-white/70 hover:text-white transition-colors text-left">
