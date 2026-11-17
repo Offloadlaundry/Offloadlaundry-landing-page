@@ -3,8 +3,7 @@
 export const privacyPolicyContent = {
   title: "Privacy Policy — OFFLOAD Laundry",
   body: `PRIVACY POLICY
-Kebijakan Privasi OffLoad Laundry
-Terakhir diperbarui: 14 November 2026
+
 OffLoad Laundry menghargai privasi dan kepercayaan setiap pengunjung website. Kebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan melindungi informasi pribadi yang Anda berikan melalui formulir pada website kami.
 
 1. Informasi yang Kami Kumpulkan
