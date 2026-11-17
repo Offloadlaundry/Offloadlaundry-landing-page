@@ -75,7 +75,7 @@ export default function PricingSection() {
 
         <div className="grid lg:grid-cols-2 gap-8">
           {/* Subscription Card */}
-          <div className="bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+          <div className="bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-shadow flex flex-col h-full">
             {/* Header */}
             <div className="bg-primary text-white p-8">
               <h3 className="text-2xl font-black mb-4">BERLANGGANAN</h3>
@@ -86,7 +86,7 @@ export default function PricingSection() {
             </div>
 
             {/* Features */}
-            <div className="p-8">
+           <div className="p-8 flex-1">
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                 {subscriptionPlans.map((plan) => (
                   <div
@@ -111,7 +111,7 @@ export default function PricingSection() {
             </div>
 
             {/* Button */}
-            <div className="px-8 pb-8">
+            <div className="px-8 pb-8 mt-auto">
               <button
                 onClick={scrollToTop}
                 className="w-full bg-primary text-white py-3 rounded-lg font-bold hover:bg-primary-light transition-colors"
@@ -122,7 +122,7 @@ export default function PricingSection() {
           </div>
 
           {/* Regular Service Card */}
-          <div className="bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+         <div className="bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-shadow flex flex-col h-full">
             {/* Header */}
             <div className="bg-primary text-white p-8">
               <h3 className="text-2xl font-black mb-4">REGULAR</h3>
@@ -133,7 +133,7 @@ export default function PricingSection() {
             </div>
 
             {/* Features */}
-            <div className="p-8">
+            <div className="p-8 flex-1">
               {/* Services Grid */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
                 {regularServices.map((service) => (
@@ -161,7 +161,7 @@ export default function PricingSection() {
             </div>
 
             {/* Button */}
-            <div className="px-8 pb-8">
+            <div className="px-8 pb-8 mt-auto">
               <button
                 onClick={scrollToTop}
                 className="w-full bg-primary text-white py-3 rounded-lg font-bold hover:bg-primary-light transition-colors"
