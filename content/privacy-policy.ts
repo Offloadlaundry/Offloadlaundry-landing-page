@@ -4,7 +4,7 @@ export const privacyPolicyContent = {
   title: "Privacy Policy — OFFLOAD Laundry",
   body: `PRIVACY POLICY
 
-OffLoad Laundry menghargai privasi dan kepercayaan setiap pengunjung website. Kebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan melindungi informasi pribadi yang Anda berikan melalui formulir pada website kami.
+OFFLOAD Laundry menghargai privasi dan kepercayaan setiap pengunjung website. Kebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan melindungi informasi pribadi yang Anda berikan melalui formulir pada website kami.
 
 1. Informasi yang Kami Kumpulkan
 Kami hanya mengumpulkan informasi berikut melalui formulir pendaftaran atau ketertarikan layanan:
@@ -13,8 +13,8 @@ Kami hanya mengumpulkan informasi berikut melalui formulir pendaftaran atau kete
 
 2. Tujuan Penggunaan Informasi
 Informasi yang Anda berikan akan digunakan secara khusus untuk:
-•	Mencatat ketertarikan Anda terhadap layanan OffLoad Laundry.
-•	Memberikan informasi mengenai perkembangan dan pembaruan layanan OffLoad Laundry.
+•	Mencatat ketertarikan Anda terhadap layanan OFFLOAD Laundry.
+•	Memberikan informasi mengenai perkembangan dan pembaruan layanan OFFLOAD Laundry.
 
 3. Perlindungan Informasi Pribadi
 Kami berkomitmen untuk menjaga kerahasiaan dan keamanan informasi yang Anda berikan. Data pribadi Anda akan dikelola secara bertanggung jawab dan hanya digunakan sesuai dengan tujuan yang telah dijelaskan dalam kebijakan ini.
@@ -29,13 +29,13 @@ Anda berhak untuk:
 •	Meminta perbaikan data apabila terdapat kesalahan.
 •	Menarik persetujuan penggunaan data pribadi.
 •	Meminta penghapusan data pribadi sesuai ketentuan yang berlaku.
-Untuk mengajukan permintaan tersebut, silakan menghubungi tim OffLoad Laundry melalui kontak resmi kami.
+Untuk mengajukan permintaan tersebut, silakan menghubungi tim OFFLOAD Laundry melalui kontak resmi kami.
 
 7. Perubahan Kebijakan Privasi
-OffLoad Laundry dapat memperbarui Kebijakan Privasi ini sewaktu-waktu sesuai dengan kebutuhan operasional dan ketentuan yang berlaku. Setiap perubahan akan ditampilkan melalui halaman ini.
+OFFLOAD Laundry dapat memperbarui Kebijakan Privasi ini sewaktu-waktu sesuai dengan kebutuhan operasional dan ketentuan yang berlaku. Setiap perubahan akan ditampilkan melalui halaman ini.
 
 8. Hubungi Kami
-Apabila Anda memiliki pertanyaan atau permintaan terkait Kebijakan Privasi ini, silakan menghubungi tim OffLoad Laundry melalui kanal komunikasi resmi kami di laundryoffload@gmail.com
+Apabila Anda memiliki pertanyaan atau permintaan terkait Kebijakan Privasi ini, silakan menghubungi tim OFFLOAD Laundry melalui kanal komunikasi resmi kami di laundryoffload@gmail.com
 
-OffLoad Laundry — Thank you for your interest and trust.`,
+OFFLOAD Laundry — Thank you for your interest and trust.`,
 };
