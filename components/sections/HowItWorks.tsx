@@ -10,7 +10,16 @@ const stepIcons = [
 
 export default function HowItWorks() {
   return (
-    <section id="cara-kerja" className="py-20 lg:py-28 bg-secondary/20">
+    <section
+  id="cara-kerja"
+  className="py-20 lg:py-28"
+  style={{
+    backgroundImage: "url('/steps-background.png')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+  }}
+>
       <Container>
         <div className="max-w-2xl mx-auto text-center mb-14">
           <h2 className="text-3xl sm:text-4xl font-black text-primary leading-tight mb-4">{howItWorksContent.headline}</h2>
